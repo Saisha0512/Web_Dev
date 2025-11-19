@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <!-- LOGIN FORM -->
+     <h1>Login Form</h1>
+     <form>
+        <label for="email">
+            Email : 
+            <input placeholder="Enter Email" type="text" name="email">
+        </label>
+        <label for="password">
+            Password : 
+            <input placeholder="Enter your Password" type="password" name="password" id="">
+        </label>
+        <button type="submit">Login</button>
+     </form>
+
+
+     <!-- A New Form -->
+      <div>
+        <h1>Learning Form</h1>
+        <form>
+            <label for="email">
+                Email : 
+                <input placeholder="Enter your Email" type="email" name="email" id="">
+            </label>
+            <!-- Textarea -->
+             <textarea name="textarea" id="" rows="5" col="50">Write your text here...</textarea>
+             <br>
+             <!-- Checkboxes & Radio -->
+              Which games do you like to play?
+              <label for="Basketball">
+                Basketball : <input type="checkbox" name="checkbox" id="">
+              </label>
+              <label for="Cricket">
+                 Cricket: <input type="radio" name="cricket" id="">
+              </label>
+              <br>
+              <label for="Games">Select the game that you like : 
+                <select name="games" id="">
+                    <option value="cricket">Cricket</option>
+                    <option value="baseball">Baseball</option>
+                </select>
+               </label>
+            <br>
+            <!-- Month Input Field -->
+            <label for="month">
+                Select your birth month & year : 
+                <input type="month" name="month" id="">
+            </label>
+            <br>
+            <!-- File Input Field -->
+             <input type="file" name="files" id="">
+            <br>
+            <!-- Color Input Field -->
+             <input type="color" name="color" id="">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+      </div>
+</body>
+</html>
